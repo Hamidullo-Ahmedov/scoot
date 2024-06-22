@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap; 
+  src: url('../fonts/space-mono-v13-latin-700.woff2') format('woff2'),
+       url('../fonts/space-mono-v13-latin-700.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/lexend-deca-v21-latin-regular.woff2') format('woff2'),
+       url('../fonts/lexend-deca-v21-latin-regular.woff') format('woff'),
+}
+
 *,
 ::before
 ::after {
@@ -5,8 +23,8 @@
 }
 
 body {
-  font-family: serif;
-  font-weight: normal;
+  font-family: "Space Mono", "Arial", sans-serif;
+  font-weight: 700;
 }
 
 img {
@@ -15,7 +33,7 @@ img {
 }
 
 .container {
-  width: 1240px;
+  width: 1150px;
   margin-inline: auto;
   padding-inline: 20px;
 }
@@ -30,3 +48,44 @@ img {
   border: 0;
   clip: rect(0 0 0 0)
 }
+
+/* header part starts */
+
+.site-header {
+  padding-block: 22px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  margin-block: 0;
+  margin-left: 58px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.navbar-link {
+  text-decoration-line: none;
+  color: #939caa;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px; 
+}
+
+.get-scootin {
+  padding: 14px 39px;
+  margin-left: auto;
+  text-decoration-line: none;
+  font-size: 15px;
+  line-height: 25px; 
+  color: #fff;
+  background-color: #fcb72b;
+}
+
+/* header part ends */
