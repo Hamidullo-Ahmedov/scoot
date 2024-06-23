@@ -354,3 +354,120 @@ img {
   }
 
 /* telemetry section sends */
+
+/* footer part starts */
+
+.site-footer {
+  padding-block: 102px;
+  background-color: #495567;
+  background-image: url("../images/footer-bg-min.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 300px) calc(50% + 170px);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-title-wrapper {
+  width: 415px;
+}
+
+.footer-title {
+  margin-block: 0;
+  font-size: 48px;
+  line-height: 48px; 
+  letter-spacing: -2.143px;
+  color: #fff;
+}
+
+.footer-download-list {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer-download-item {
+  display: flex;
+  align-items: center;
+  padding: 9px 16px;
+  background-color: #e5ecf4;
+  border-radius: 4px;
+}
+
+.download-item-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-download-item::before {
+  content: "";
+  margin-right: 12px;
+  width: 24px;
+  height: 28px;
+  background-image: url("../images/apple-icon-min.svg");
+}
+
+.footer-download-item:nth-child(2)::before {
+  background-image: url("../images/playmarket-icon-min.svg");
+}
+
+.availability {
+  font-size: 10px;
+  line-height: normal;
+  letter-spacing: -0.446px;
+  color: #495567;
+}
+
+.available-app {
+  color: #495567;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.893px;
+}
+
+.lower-footer {
+  padding-block: 35px;
+  background-color: #333a44;
+}
+
+.lower-footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link-list {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  margin-block: 0;
+  margin-left: 60px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer-link {
+  text-decoration-line: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; 
+  color: #939caa;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-left: auto;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* footer part ends */
