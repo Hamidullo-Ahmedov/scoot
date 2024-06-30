@@ -852,3 +852,88 @@ img {
 }
 
 /* faq section ends */
+
+/* location hero section stats */
+
+.location-hero {
+  position: relative;
+  padding-block: 72px;
+  background-image: url("../images/locations-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location-hero::after {
+  display: inline-block;
+  position: absolute;
+  right: calc(50% - 805px);
+  top: calc(50% - 25px);
+  content: "";
+  width: 234px;
+  height: 62px;
+  background-image: url("../images/hero-circle-min.svg");
+}
+
+/* location hero section ends */
+
+/* map section starts */
+
+.site-map {
+  padding-block: 120px;
+}
+
+/* map section ends */
+
+/* location article starts */
+
+.location-article {
+  padding-block: 120px;
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-title-wrapper {
+  width: 350px;
+}
+
+.location-article-title {
+  margin-block: 0;
+  color: #495567;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+
+.article-desc-wrapper {
+  width: 445px;
+}
+
+.location-article-desc {
+  font-family: "Lexend Deca", "Arial", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; 
+  color: #939caa;
+}
+
+.location-article-link {
+  text-decoration-line: none;
+  padding: 14px 44px;
+  text-align: center;
+  font-family: "Space Mono", "Arial", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; 
+  color: #fff;
+  background-color: #fcb72b;
+}
+
+/* location article ends */
